@@ -1,0 +1,27 @@
+[ui]
+username=i.arkhanhelsky
+
+[tortoisehg]
+workbench.single=True
+defaultwidget=commit
+opentabsaftercurrent=True
+authorcolor=True
+longsummary=True
+forcerepotab=True
+monitorrepo=always
+
+[extensions]
+rebase     =
+graphlog   =
+color      =
+hgk        =
+mq         =
+purge      =
+
+[color]
+status.modified = magenta bold
+status.added    = green bold
+status.removed  = red bold
+status.deleted  = cyan bold
+status.unknown  = blue bold
+status.ignored  = black bold
