@@ -1,22 +1,32 @@
 [ui]
 username=i.arkhanhelsky
 
-[tortoisehg]
-workbench.single=True
-defaultwidget=commit
-opentabsaftercurrent=True
-authorcolor=True
-longsummary=True
-forcerepotab=True
-monitorrepo=always
-
 [extensions]
-rebase     =
-graphlog   =
-color      =
-hgk        =
-mq         =
-purge      =
+pager         =
+
+# This extension allows you to use git-style suffixes to refer to the
+# ancestors of a specific revision.
+parentrevspec =
+
+rebase        =
+graphlog      =
+color         =
+hgk           =
+mq            =
+# It'll remove unknown files and empty directories by default. With the
+# --all option, it will also remove ignored files.
+purge         =
+
+histedit      =
+# The record extension provides the record command, which may be used in
+# lieu of commit. This command lets you choose which parts of the changes in
+# a working directory you'd like to commit, at the granularity of patch
+# hunks.
+record        =
+
+[pager]
+pager = LESS='FSRX' less
+ignore = version, help, update, serve, record
 
 [color]
 status.modified = magenta bold
