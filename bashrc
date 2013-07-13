@@ -16,9 +16,10 @@ export PATH="$PATH:/home/dm/.gem/ruby/2.0.0/bin:/home/dm/Mathworks/bin/"
 export IPOD_MOUNTPOINT="/mnt/ipod/"
 export ANDROID_SDK="/opt/android-sdk"
 
-###### Aliases
+###### Aliase 
 alias ls='ls --color=auto -h'
 alias sl='ls'
+alias less='less -R'
 
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
@@ -37,3 +38,4 @@ PS1='[\t \h]\n\u ~> \W \$ '
 if [ -n "$SSH_CLIENT" ]; then text=" ssh"
     export PS1='[\[\e[0;31m\]\u@\h:\w${text}$\[\e[m\] ]'
 fi
+

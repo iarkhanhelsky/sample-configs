@@ -1,5 +1,18 @@
+%include ~/.hgrc.d/hostfingerprints
+
+%include ~/.hgrc.d/auth
+
 [ui]
 username=i.arkhanhelsky
+
+[tortoisehg]
+workbench.single=True
+defaultwidget=commit
+opentabsaftercurrent=True
+authorcolor=True
+longsummary=True
+forcerepotab=True
+monitorrepo=always
 
 [extensions]
 pager         =
