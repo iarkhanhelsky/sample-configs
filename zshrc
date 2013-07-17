@@ -2,8 +2,6 @@ autoload -Uz promptinit
 autoload -U colors && colors
 promptinit
 
-
-
 ###### Exports
 export EDITOR=nano
 export MBUILD2="/home/dm/Projects/work/mbuild2"
