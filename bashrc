@@ -16,7 +16,7 @@ export PATH="$PATH:/home/dm/.gem/ruby/2.0.0/bin:/home/dm/Mathworks/bin/"
 export IPOD_MOUNTPOINT="/mnt/ipod/"
 export ANDROID_SDK="/opt/android-sdk"
 
-###### Aliase 
+###### Aliases
 alias ls='ls --color=auto -h'
 alias sl='ls'
 alias less='less -R'
