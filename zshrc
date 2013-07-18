@@ -30,3 +30,11 @@ alias ...='cd ../../'
 
 alias ccat=pygmentize # syntax higlight over cat
 alias psx="ps -auxw ¦ grep $1"
+
+
+##### Bind keys
+
+bindkey "${key[Home]}" beginning-of-line
+bindkey "${key[End]}" end-of-line
+bindkey "${key[Delete]}" delete-char
+bindkey "${key[Insert]}" overwrite-mode
