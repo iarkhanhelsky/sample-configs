@@ -48,3 +48,9 @@ status.removed  = red bold
 status.deleted  = cyan bold
 status.unknown  = blue bold
 status.ignored  = black bold
+
+
+[alias]
+slog = log --style=/home/dm/.hgrc.d/exts/map-cmdline.slog
+nlog = log --style=/home/dm/.hgrc.d/exts/map-cmdline.nlog
+sglog = glog --style=/home/dm/.hgrc.d/exts/map-cmdline.sglog    
