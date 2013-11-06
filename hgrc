@@ -3,7 +3,7 @@
 %include ~/.hgrc.d/auth
 
 [ui]
-username=i.arkhanhelsky
+username=ilya.arkhanhelsky
 
 [tortoisehg]
 workbench.single=True
