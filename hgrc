@@ -54,3 +54,4 @@ status.ignored  = black bold
 slog = log --style=/home/dm/.hgrc.d/exts/map-cmdline.slog
 nlog = log --style=/home/dm/.hgrc.d/exts/map-cmdline.nlog
 sglog = glog --style=/home/dm/.hgrc.d/exts/map-cmdline.sglog    
+cmjava = commit 'glob:**java'
